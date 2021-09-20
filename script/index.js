@@ -1,3 +1,15 @@
+
+const mymusic = new Audio();
+mymusic.src = "../stuffs/letHerGo.mp3";
+const playMusic = () => {
+    mymusic.play();
+    mymusic.volume=0.1;
+}
+const pauseMusic = () => {
+    mymusic.pause();
+}
+
+
 $(document).ready(function () {
 
     $('.shake-eshake').hover(

@@ -41,6 +41,7 @@
             <header class="mb-auto ">
                 <div class="">
                     <h3 class="float-md-start mb-0 my-2" id="headd_own">scor32k</h3>
+
                     <nav class="nav nav-masthead justify-content-end my-0 float-md-end">
                         <a class="nav-link active" href="#contactusmeid">Contact Me</a>
                         <a class="nav-link active" href="https://github.com/scorcism" target="_blank">Projects</a>
@@ -57,23 +58,26 @@
         <section class="py-5 text-center container" id="section">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
+                    
                     <h1 class="fw-dark animate__animated animate__backInDown namemine ">Abhishek Pathak</h1>
+
                     <h1 id="scor" class=" animate__animated animate__bounceIn animate__delay-1s ">Scorcism</h1>
 
                     <p class="lead text contactmee animate__animated animate__backInUp ">Diligent and Creative
                         Programmar who is skilled in Python, C,
                         Java,
                         PHP, HTML, CSS, JS, JQuery, Wordpress, BootStrap, React JS and many to Go ... <br>
-
                     </p>
                     <h3 class="contactmeextra animate__flipInX animate__animated animate__delay-1s">For More info you
-                        can contact me</h3>
-                    <p class="myself arrowanimate myself1" style="background: none;">
-                        <a href="#aboutme" style="text-decoration: none;">
-
-                            <i class="fas fa-angle-double-down arrow2" id=" arrow"></i>
-                        </a>
-                    </p>
+                        can contact me
+                    </h3>
+                    <!-- music palyer -->
+                    <div class="musicpalyer my-1 animate__animated animate__jello animate__backInUp animate__delay-1s ">
+                        <button style="background: none; border: none;" title="play click:1 pause click:2">
+                            <i id="music_player" onclick="playMusic()" ondblclick="pauseMusic()"
+                                class="fas fa-play"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -83,159 +87,163 @@
 
     <!-- about me -->
     <div class=" container coustom_aboutme" id="aboutme">
-                                <div class="container px-4 py-5" id="hanging-icons">
-                                    <h2
-                                        class="pb-2 border-bottom mainaboutme text-center animate__slideInDown animate__delay-2s animate__animated">
-                                        About Me
-                                    </h2>
-                                    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                                        <div class="col d-flex align-items-start">
-                                            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                                            </div>
-                                            <div>
-                                                <h2 class="shake-shake animate__animated shake-eshake">Education</h2>
-                                                <p class="paranew list_style">
-                                                <ul class="bsccs">
-                                                    <li>BSc Computer Science </li>
-                                                </ul>
-                    </p>
+        <div class="container px-4 py-5" id="hanging-icons">
+            <h2
+                class="pb-2 border-bottom mainaboutme text-center animate__slideInDown animate__delay-2s animate__animated">
+                <a href="#aboutme" title="about me">
+                    About Me
+                </a>
+            </h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                    </div>
+                    <div>
+                        <h2 class="shake-shake animate__animated shake-eshake">Education</h2>
+                        <p class="paranew list_style">
+                        <ul class="bsccs">
+                            <li>BSc Computer Science </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                    </div>
+                    <div>
+                        <h2 class="shake-shake shake-eshake">Programming </h2>
+                        <p>
+                        <ul class="list_style">
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>Java</li>
+                            <li>Bash</li>
+                            <li>SQL</li>
+                            <li>mongo db</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div>
+                        <h2 class="shake-shake shake-eshake">Web Dev.</h2>
+                        <p>
+                        <ul class="list_style">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                            <li>JQuery</li>
+                            <li>React JS</li>
+                            <li>WordPress</li>
+                            <li>BootStrap</li>
+                        </ul>
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="col d-flex align-items-start">
-                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                </div>
-                <div>
-                    <h2 class="shake-shake shake-eshake">Programming </h2>
-                    <p>
-                    <ul class="list_style">
-                        <li>Python</li>
-                        <li>C</li>
-                        <li>Java</li>
-                        <li>Bash</li>
-                        <li>SQL</li>
-                        <li>mongo db</li>
-                    </ul>
-                    </p>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h2 class="shake-shake shake-eshake">Web Dev.</h2>
-                    <p>
-                    <ul class="list_style">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JS</li>
-                        <li>JQuery</li>
-                        <li>React JS</li>
-                        <li>WordPress</li>
-                        <li>BootStrap</li>
-                    </ul>
-                    </p>
-                </div>
-            </div>
-    </div>
 
-    </div>
+        </div>
     </div>
 
     <!-- End- about me -->
 
     <!-- contact us start -->
     <div class=" contactusme" id="contactusmeid">
-            <div class="modal modal-signin position-static d-block  py-3" tabindex="-1" role="dialog" id="modalSignin">
-                <div class="modal-dialog" role="document">
+        <div class="modal modal-signin position-static d-block  py-3" tabindex="-1" role="dialog" id="modalSignin">
+            <div class="modal-dialog" role="document">
 
-                    <div class="modal-content rounded-5 shadow">
-                        <div class="modal-header p-2 pb-3 border-bottom-0">
+                <div class="modal-content rounded-5 shadow">
+                    <div class="modal-header p-2 pb-3 border-bottom-0">
+                    </div>
+                    <div class="modal-body p-5 pt-0">
+                        <!-- arrow -->
+                        <div class="text-center">
+                            <p class="myself arrowanimate  myself1">
+                                <a href="#contactme" style="text-decoration: none;">
+
+                                    <i class="fas fa-angle-double-down  arrow2" id=" arrow" title="contact us"></i>
+                                </a>
+                            </p>
                         </div>
-                        <div class="modal-body p-5 pt-0">
-                            <!-- arrow -->
-                            <div class="text-center">
-                                <p class="myself arrowanimate myself1">
-                                    <a href="#contactme" style="text-decoration: none;">
-
-                                        <i class="fas fa-angle-double-down arrow2" id=" arrow"></i>
-                                    </a>
-                                </p>
-                            </div>
-                            <hr>
-                            <h2 class="fs-5 fw-bold mb-3 text-center animate__animated" id="contactme">Contact Me</h2>
-                            <button id="g" class="w-100 py-2 mb-2 btn rounded-pill button_own " type="submit">
-                                <a href="https://github.com/scorcism" target="_blank">GitHub</a>
-                            </button>
-                            <button class="w-100 py-2 mb-2 btn button_own rounded-pill button_own2" type="submit">
-                                <a href="https://linked.in/abhishekpathak23" target="_blank">Linkedin</a>
-                            </button>
-                            <button class="w-100 py-2 mb-2 btn rounded-pill button_own" type="submit">
-                                <a href="mailto:abhishekpathak1720@gmail.com" target="_blank">Mail</a>
-                            </button>
-                            <h5 class="text-center">YOU CAN FIND ME HERE</h5>
-                            <div class="links_mine ">
-                                <a href="https://instagram.com/scor.cism">
-                                    <ion-icon name="logo-instagram" id="insta" class="move-ing animate__animated">
-                                    </ion-icon>
-                                </a>
-                                <a href="">
-                                    <ion-icon name="logo-twitter" id="twt" class="move-ing"></ion-icon>
-                                </a>
-                                <a href="https://www.linkedin.com/in/abhishekpathak32">
-                                    <ion-icon name="logo-linkedin" id="linke" class="move-ing animate__animated">
-                                    </ion-icon>
-                                </a>
-                                <a href="https://github.com/scorcism">
-                                    <ion-icon name="logo-github" id="github" class="move-ing animate__animated">
-                                    </ion-icon>
-                                </a>
-                                <a href="https://www.youtube.com/channel/UC8ksOZDxV31kSEZwjPjv3Yw">
-                                    <ion-icon name="logo-youtube" id="yt" class="move-ing animate__animated"></ion-icon>
-                                </a>
-                                <a href="https://reddit.com/u/scorcism">
-                                    <ion-icon name="logo-reddit" id="reddit" class="move-ing animate__animated">
-                                    </ion-icon>
-                                </a>
-                                <a href="mailto:abhishekpathak1720@gmail.com">
-                                    <ion-icon name="mail-outline" id="mail" class="move-ing animate__animated">
-                                    </ion-icon>
-                                </a>
-                            </div>
+                        <hr>
+                        <h2 class="fs-5 fw-bold mb-3 text-center animate__animated" id="contactme">Contact Me</h2>
+                        <button class="w-100 py-2 mb-2 btn button_own rounded-pill button_own2" type="submit">
+                            <a href="https://linked.in/abhishekpathak23" target="_blank">Linkedin</a>
+                        </button>
+                        <button id="g" class="w-100 py-2 mb-2 btn rounded-pill button_own " type="submit">
+                            <a href="https://github.com/scorcism" target="_blank">GitHub</a>
+                        </button>
+                        <button class="w-100 py-2 mb-2 btn rounded-pill button_own" type="submit">
+                            <a href="mailto:abhishekpathak1720@gmail.com" target="_blank">Mail</a>
+                        </button>
+                        <h5 class="text-center">YOU CAN FIND ME HERE</h5>
+                        <div class="links_mine ">
+                            <a href="https://instagram.com/scor.cism">
+                                <ion-icon name="logo-instagram" id="insta" class="move-ing animate__animated">
+                                </ion-icon>
+                            </a>
+                            <a href="">
+                                <ion-icon name="logo-twitter" id="twt" class="move-ing"></ion-icon>
+                            </a>
+                            <a href="https://www.linkedin.com/in/abhishekpathak32">
+                                <ion-icon name="logo-linkedin" id="linke" class="move-ing animate__animated">
+                                </ion-icon>
+                            </a>
+                            <a href="https://github.com/scorcism">
+                                <ion-icon name="logo-github" id="github" class="move-ing animate__animated">
+                                </ion-icon>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UC8ksOZDxV31kSEZwjPjv3Yw">
+                                <ion-icon name="logo-youtube" id="yt" class="move-ing animate__animated"></ion-icon>
+                            </a>
+                            <a href="https://reddit.com/u/scorcism">
+                                <ion-icon name="logo-reddit" id="reddit" class="move-ing animate__animated">
+                                </ion-icon>
+                            </a>
+                            <a href="mailto:abhishekpathak1720@gmail.com">
+                                <ion-icon name="mail-outline" id="mail" class="move-ing animate__animated">
+                                </ion-icon>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- contact us end -->
+
+
+    <!-- footer start -->
+    <div class="footer_own">
+        <section class=" text-center container" id="section">
+            <div class="row ">
+                <div class="mx-auto">
+                    <p>
+                        <a href="#header_" class="backtop my-1">Back To Top</a>
+                    </p>
+                    <p class="my-3 "> Copyright <span class="addanimation" style="font-size: 21px;">&copy</span>
+                        Abhishek Pathak
+                    </p>
+                </div>
             </div>
-            <!-- contact us end -->
+        </section>
+    </div>
+    <!-- footer end -->
 
 
-            <!-- footer start -->
-            <div class="footer_own">
-                <section class=" text-center container" id="section">
-                    <div class="row ">
-                        <div class="mx-auto">
-                            <p>
-                                <a href="#header_" class="backtop my-1">Back To Top</a>
-                            </p>
-                            <p class="my-3 "> Copyright <span class="addanimation" style="font-size: 21px;">&copy</span>
-                                Abhishek Pathak
-                            </p>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <!-- footer end -->
-
-
-            <!-- bootstrap included -->
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-                crossorigin="anonymous"></script>
-            <!-- jquery -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <!-- for icons -->
-            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-            <!-- coustom script -->
-            <script src="/script/index.js"></script>
+    <!-- bootstrap included -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- for icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- coustom script -->
+    <script src="/script/index.js"></script>
 </body>
+<script type="text/javascript">
+</script>
 
 </html>

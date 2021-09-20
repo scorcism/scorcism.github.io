@@ -16,6 +16,14 @@ body {
   font-family: "Noto Serif", serif;
 }
 
+#g a:hover{
+  color: #ff9100;
+  background: transparent;
+  
+  text-shadow: 0 0 70px #2196f3, 0 0 40px #2196f3,0 0 80px #2196f3;
+  transition-delay: 0.3s;
+}
+
 .aboutme {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -30,17 +38,28 @@ body {
   color: wheat;
 }
 
+
+
 .arrowanimate i {
   font-size: 40px;
 }
 .arrow2:hover{
   color: purple;
 }
-
-#section a {
-  text-decoration: none;
-  cursor: progress;
+#arrow{
+  color: black;
 }
+#music_player{
+  font-size: 29px;
+  color: grey;
+  cursor: pointer;
+}
+
+#music_player:hover{
+  color: rgba(160, 0, 160, 0.219);
+  
+}
+
 .namemine {
   font-family: "Roboto", sans-serif;
 }
@@ -89,6 +108,11 @@ body {
 
 .mainaboutme {
   font-family: "Montserrat", sans-serif;
+}
+.mainaboutme a {
+  
+  text-decoration: none;
+  color: rgb(20, 7, 7);
 }
 .me_info .contactmee {
   color: rgb(228, 113, 20);
