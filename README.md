@@ -1,2 +1,2 @@
 # website
-# https://scor32k.netlify.app/
+# https://scorcism.github.io
