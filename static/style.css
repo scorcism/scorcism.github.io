@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #ECE8DD;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.container_inleft{
+    background-image: url('./681002.jpg');
+    min-width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container_inright{
+    min-width: 50%;
+    border-left: 2px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10em;
+    padding-right: 3em;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.name{
+    font-size: 4.5em;
+    font-family: 'Righteous', cursive;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.hr{
+    margin-top: 10px;
+    width: 61px;
+    color: black;
+    height: 6px;
+    outline: none;
+    background: black;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+.alias{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.alias ul {
+    list-style: none;
+    display: flex;
+    flex-basis: min-content;
+    justify-content:flex-start;
+    white-space: 10px;
+}
+.alias ul > li {
+    font-size: 19px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Pacifico', cursive;
+}
+
+a{
+    color: black;
+    background-color: white;
+    padding: 10px 30px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+}
+
+@media (max-width:480px)  { 
+    .container_inleft{
+        display: none;
+    }
+    .container_inright{
+        width: 100%;
+    }
+    .container_inright{
+        min-width: 50%;
+        border-left: 2px solid black;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 10em;
+        padding-right: 3em;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
