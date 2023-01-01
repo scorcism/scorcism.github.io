@@ -83,6 +83,9 @@ a{
 }
 
 @media screen and (max-width:500px)  { 
+    *{
+        overflow: hidden;
+    }
     .container_inleft{
         display: none;
     }
