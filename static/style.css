@@ -19,7 +19,7 @@ body{
     display: flex;
 }
 .container_inleft{
-    background-image: url('./38152.jpg');
+    background-color:"#800080", 
     min-width: 50%;
     background-repeat: no-repeat;
     background-position: center;
